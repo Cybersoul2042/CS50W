@@ -1,0 +1,68 @@
+body{
+    background-color: #181a19;
+    font-family: Arial, sans-serif;
+}
+
+.Heading{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.SearchBar{
+    text-align: center;
+}
+
+input[type="text"]{
+    border-radius: 24px;
+    border: 0.8px solid #dfe1e5;
+    background: #181a19;
+    color:white;  
+    padding: 20px;
+    width: 400px;
+    height: 1px;
+    margin: 20px;
+}
+input[type="text"]:hover{
+    background: #383c3a;
+    border: 0.8px solid #181a19;
+    cursor: text;
+}
+input:focus{
+    background: #383c3a;
+    border:0.8px solid #383c3a;
+    outline: #181a19;
+}
+
+button{
+    background: #272928;
+    border-radius: 4px;
+    border: 1px solid #272928;
+    color: white;
+    font-size: 10px;
+    width: 110px;
+    height:28px;
+}
+button:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.Links{
+    clear:both; 
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: #8ab4f8;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:darkmagenta;
+}
